@@ -1,0 +1,310 @@
+html {
+    scroll-behavior: smooth;
+    }
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+   
+}
+
+.header {
+    background-color: #232323;
+    
+    color: bisque;
+    /* Como estamos usando float, o header vai "sumir" se não tiver uma altura.
+    Para que o header esteja visível, você tem duas saídas:
+    1. Adicionar uma altura (height) fixa.
+    2. Configurar para que header tenha o tamanho de seus elementos dentro dele,
+    não deixando que nada "derrame" para fora. (overflow: auto)
+    */
+    /* height: 102px; */
+    overflow: auto;
+    border-bottom: 3px solid rgb(255, 0, 0);
+    
+   
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    position: fixed;
+   left: 0;
+   top: 0;
+    width: 100%; 
+     z-index: 1043;
+   
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    /*margin: auto; -> divide o valor que "sobrou" de width nos dois lados do elemento, centralizando-o.*/
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+}
+
+.titulo {
+    margin: 0;
+    float: left;
+    padding-top: 5px;
+    color: bisque;
+}
+
+/* .navbar li {
+    float: left;
+} */
+
+.header .navbar li {
+    float: left;
+    margin-left: 13px;
+    text-transform: uppercase;
+}
+
+.destaque {
+    color: bisque;
+    text-shadow: 0 0 0.2em rgb(255, 0, 0), 0 0 0.2em rgb(255, 0, 0);
+    
+}
+
+/* BANNER */
+
+.banner {
+    text-align: center;
+    background-color: black;
+    background-image: url(imgs/cogumelo_banner.jpg);
+    /* background-image: url(imgs/estufa.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 400px;
+  
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 50px;
+    padding-top: 150px;
+    color: black;
+   
+}
+
+.banner h3 {
+    color: #555555;
+}
+
+.banner h4 {
+
+    color: white;
+   
+}
+
+/* SABER MAIS */
+
+.saiba-mais button {
+    border: 0;
+    background-color: bisque;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.saiba-mais {
+    text-align: center;
+    background-color:#232323;
+    height: 90px;
+}
+
+/* MISSAO VISAO VALORES */
+
+.box img {
+    height: 100px
+}
+
+.box {
+    /* border: 3px solid red; */
+    overflow: auto;
+    background-color: bisque;
+    padding-bottom: 0;
+    margin-bottom: 0;
+} 
+
+.box-item {
+    /* border: 1px solid purple; */
+    float: left;
+    text-align: center;
+    width: 27%;
+    padding: 3%;
+}
+
+
+
+
+
+.Sobre{
+
+
+    height: 680px;
+    background-color: #232323;
+    color: black;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    
+}
+
+.img1 {
+
+    
+height: 110px;
+float: left;
+padding-left: 20px;
+
+
+
+
+}
+
+.Sobre h1 {
+
+    font-size: 50px;
+
+    padding-top: 60px;
+    text-shadow: 0 0 0.2em rgb(255, 0, 0), 0 0 0.2em rgb(255, 0, 0);
+    margin-top: 0;
+    
+}
+
+.Sobre h3 {
+
+    
+
+     color: white;
+}
+
+.img2 {
+
+    text-align: center;
+    height: 500px;
+    height: 500px;
+    
+    
+    
+    
+    
+    }
+
+    .container1 {
+        width: 76%;
+        margin: auto;
+        /*margin: auto; -> divide o valor que "sobrou" de width nos dois lados do elemento, centralizando-o.*/
+    }
+    
+    .Sobre img:hover{
+
+        
+        /* transform: scale(1.3); */
+        
+        
+        
+        
+        }
+
+    .Sobre h4{
+
+        text-align: justify;
+        color: bisque;
+        font-size: 20px;
+    }
+
+            /* Equipe */
+
+            .equipe{
+
+
+                height: 250px;
+                background-color: bisque;
+               
+                
+            }
+
+        /* FOOTER */
+
+.footer {
+    text-align: center;
+    background-color: #232323;
+    height: 90px;
+    
+    
+}
+
+.footer h4 {
+    margin: 0;
+    padding-top: 40px;
+    font-weight: 100;
+    color: bisque;
+}
+
+h4{
+
+    color: black;
+   
+}
+
+a{
+
+    text-decoration:none; 
+    color: bisque;
+    
+}
+
+a:hover{
+
+    
+    border-bottom: 3px solid #FEDFB280;
+        transition-duration: 0.1s;
+}
+
+.footer a {
+    
+    color: bisque;
+}
+
+
+
+    
+.missao:hover {
+    transform: scale(1.3)
+}
+
+.visao:hover{
+    transform: scale(1.3)
+}
+
+.valores:hover {
+    transform: scale(1.3)
+}
+
+.img1{
+
+    height: 60px;
+    padding-bottom: 5px;
+
+}
+
+.box-item1 {
+    /* border: 1px solid purple; */
+    float: left;
+    text-align: center;
+    width: 10%;
+    padding: 3%;
+}
+
+.box-item1 img{
+   height: 45px;
+}
+
+
+
